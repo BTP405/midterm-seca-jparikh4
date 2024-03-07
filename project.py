@@ -44,11 +44,6 @@ class Project:
         Args:
             employee (Employee): The employee to be assigned to the project.
         """
-        if not isinstance(employee, Employee):
-            raise TypeError('expected an Employee instance, got {}'.format(type(employee)))
-
-        if employee in self.employees:
-            raise ValueError('employee "{}" is already assigned to the project'.format(employee.name))
-
-        self.employees.append(employee)
+        
+    self.employees.append(employee)
         pass
