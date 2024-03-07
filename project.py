@@ -44,6 +44,6 @@ class Project:
         Args:
             employee (Employee): The employee to be assigned to the project.
         """
+        self.employees.append(Employee)
         
-    self.employees.append(employee)
         pass

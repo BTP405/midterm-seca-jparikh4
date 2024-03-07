@@ -85,7 +85,8 @@ class ManagementSystem:
         """
         if emp_id not in self.employees:
         raise ValueError(f"Employee with ID {emp_id} not found.")
-        if project_id not in self.employees:
+        
+        if project_id not in self.projects:
         raise ValueError(f"Employee with ID {project_id} not found.")
 
 
