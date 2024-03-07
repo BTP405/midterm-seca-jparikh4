@@ -24,9 +24,9 @@ class ManagementSystem:
         """
         Initialize a ManagementSystem object.
         """
-        self.employee = {}
-        self.project = {}
-        self.task = {}
+        self.employees = {}
+        self.projects = {}
+        self.tasks = {}
 
 
         pass
